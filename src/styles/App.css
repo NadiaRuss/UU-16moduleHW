@@ -1,0 +1,25 @@
+#root {
+  max-width: 700px;
+  min-height: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 25px;
+  display: flex;
+  background: #30748c;
+}
+.App {
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+}
+
+.h1 {
+  text-align: center;
+  padding: 20px;
+  /* border-bottom: 2px solid #f5f8f8; */
+  color: #f5f8f8;
+  text-shadow: 1px 1px 2px black;
+}
+.h2{
+  text-align: center;
+}

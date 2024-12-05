@@ -1,0 +1,34 @@
+.task-item {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 5px;
+  outline: 2px solid #f5f8f8;
+  color: black;
+  font-size: 18px;
+}
+.delete-btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: #0ec593;
+  outline: 2px solid #f5f8f8;
+}
+.task-list {
+  margin: 25px 14px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+.click-item {
+  display: flex;
+}
+.check-svg {
+  margin-right: 30px;
+}
+.img {
+  background-color: #f5f8f8;
+  border-radius: 13px;
+}
