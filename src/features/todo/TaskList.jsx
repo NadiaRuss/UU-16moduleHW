@@ -10,8 +10,8 @@ const TaskList = () => {
         if(state.todos.filter === 'completed'){
             return state.todos.tasks.filter((task) => task.completed);
         } else if ((state.todos.filter === 'actual')){
-            return state.todos.tasks.filter((task) => !task.complited);
-        } else if ((state.todos.filter === 'all')){
+            return state.todos.tasks.filter((task) => !task.completed);
+        } else {
             return state.todos.tasks;
         }
 
